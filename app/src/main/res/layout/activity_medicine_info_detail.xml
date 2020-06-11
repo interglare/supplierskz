@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00509d"
+    tools:context=".ProductInfoDetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Заголовок"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:background="@drawable/et3"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:layout_margin="10dp"/>
+        <ImageView
+            android:id="@+id/ivImage"
+            android:layout_width="220dp"
+            android:layout_height="200dp"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/tvDes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Текст"
+            android:textSize="15sp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+    </LinearLayout>
+
+</ScrollView>
